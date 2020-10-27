@@ -1,0 +1,10 @@
+#header{
+    background-color: red;
+    
+}
+#header img{
+    height: 30px;
+}
+#header .searchbar{
+    border-radius: 50%;
+}
