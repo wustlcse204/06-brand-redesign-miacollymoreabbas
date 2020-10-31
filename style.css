@@ -1,10 +1,113 @@
 #header{
-    background-color: red;
-    
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#header h2{
+    padding-top: 10px;
+    color: white;    
 }
 #header img{
-    height: 30px;
+    height: 40px;
 }
-#header .searchbar{
-    border-radius: 50%;
+#covidheader{
+    background-color: rgb(1, 113, 227);
+}
+#covidheader h1{
+    color: white;
+}
+#helpheader{
+    background-color: white;
+}
+#helpheader h2{
+    color: black;
+}
+#iphone12pro{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+    height: 600px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+#iphone12pro img{
+    height: 200px;
+}
+#iphone12pro .whiteheader{
+    color: white;
+}
+#iphone12pro .greyheader{
+    color: grey;
+}
+#iphone12pro .blueheader{
+    color: lightskyblue;
+}
+#iphone12{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    height: 600px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+#iphone12 img{
+    height: 200px;
+}
+#iphone12 .blackheader{
+    color: black;
+}
+#iphone12 .greyheader{
+    color: grey;
+}
+#iphone12 .blueheader{
+    color: lightskyblue;
+}
+#watch{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 600px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background-color: black;
+}
+#watch img{
+    padding-top: 30px;
+    height: 400px;
+}
+#watch .whiteheader{
+    color: white;
+}
+#watch .redheader{
+    color: red
+}
+#watch .blueheader{
+    color: lightskyblue;
+}
+ul {
+    list-style-type: none; 
+    padding-left: 40px; 
+    margin: 0;
+}
+hr{
+    width: 100%;
+    color: black;
+}
+@media only screen and (max-width: 1000px) {
+    #iphone12pro{
+      width:100%;
+    }
+    #iphone12{
+        width: 100%;
+    }
+    #watch{
+        width: 100%;
+    }
+}
+#pictures{
+    padding-left: 0px;
+    padding-right: 0px;
 }
